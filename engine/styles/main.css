@@ -1,0 +1,36 @@
+.body_test{
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	font-family: Geometria;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+._container{
+	padding: 0 15px;
+    max-width: 1046px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+/*-------Шапка--------------------------------------------------------------------------------*/
+.header_new{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+.header_new__container{
+	display: flex;
+	min-height: 104px;
+	align-items: center;
+}
+._text{
+	color: #737373;
+	font-weight: 600;
+	line-height: calc(24 / 14 * 100%);
+	font-size: 18px;
+}
